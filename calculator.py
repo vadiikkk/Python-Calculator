@@ -4,17 +4,17 @@ class Calculator:
     def add(self, a: float, b: float) -> float:
         """Возвращает сумму a и b."""
         # TODO: реализуйте сложение
-        raise NotImplementedError("Not implemented")
+        return a + b;
 
     def subtract(self, a: float, b: float) -> float:
         """Возвращает разность a и b."""
         # TODO: реализуйте вычитание
-        raise NotImplementedError("Not implemented")
+        return a - b;
 
     def multiply(self, a: float, b: float) -> float:
         """Возвращает произведение a и b."""
         # TODO: реализуйте умножение
-        raise NotImplementedError("Not implemented")
+        return a * b;
 
     def divide(self, a: float, b: float) -> float:
         """Возвращает частное a и b.
@@ -24,4 +24,6 @@ class Calculator:
         """
         # TODO: реализуйте деление
         # Не забудьте обработать деление на ноль
-        raise NotImplementedError("Not implemented")
+        if b == 0:
+            raise ValueError("Деление на ноль");
+        return a / b;
