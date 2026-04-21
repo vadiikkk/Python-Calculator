@@ -1,0 +1,15 @@
+---
+version: 1
+language: "PYTHON"
+check:
+  type: "UNIT_TESTS"
+  command: "python -m pytest --junitxml=/junit.xml"
+  workdir: "."
+attempts:
+  max: 3
+privateTests:
+  enabled: true
+  targetPath: "tests"
+scoring:
+  strategy: "PASS_RATE"
+  maxScore: 100.00
