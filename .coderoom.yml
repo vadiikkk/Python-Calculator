@@ -3,7 +3,7 @@ version: 1
 language: "PYTHON"
 check:
   type: "UNIT_TESTS"
-  command: "python -m pytest --junitxml=/junit.xml"
+  command: "python -m pytest --junitxml=junit.xml"
   workdir: "."
 attempts:
   max: 3
