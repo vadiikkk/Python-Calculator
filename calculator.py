@@ -24,4 +24,6 @@ class Calculator:
         """
         # TODO: реализуйте деление
         # Не забудьте обработать деление на ноль
+        if b == 0:
+            raise ValueError("Деление на ноль");
         return a / b;
