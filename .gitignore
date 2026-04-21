@@ -1,0 +1,31 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual env
+venv/
+.venv/
+env/
+
+# pytest
+.pytest_cache/
+htmlcov/
+.coverage
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+.coderoom/junit.xml
+test_calculator_private.py
+test_calculator_private.zip
